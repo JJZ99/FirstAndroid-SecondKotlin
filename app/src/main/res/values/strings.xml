@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SecondKotlin1</string>
+    <string name="button">CALCULATE</string>
+    <string name="textview_hint">Cost of Service</string>
+    <string name="radio_button1">Amazing(20%)</string>
+    <string name="radio_button2">Good(18%)</string>
+    <string name="radio_button3">Okay(15%)</string>
+    <string name="swift">Round up tip？</string>
+    <string name="label">label</string>
+    <string name="cost_of_service">Cost-of-service</string>
+</resources>

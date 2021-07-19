@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".animate.TweenAnimActivity">
+<LinearLayout
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_tween1"
+        android:layout_width="wrap_content"
+        android:text="透明"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_tween2"
+        android:layout_width="wrap_content"
+        android:text="旋转"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_tween3"
+        android:layout_width="wrap_content"
+        android:text="缩放"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_tween4"
+        android:layout_width="wrap_content"
+        android:text="平移"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+</LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_tween"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:src="@drawable/rabbit"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

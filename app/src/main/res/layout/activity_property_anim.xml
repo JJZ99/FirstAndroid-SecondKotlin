@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".animate.PropertyAnimActivity">
+    <LinearLayout
+        android:id="@+id/linear_proper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_proper1"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="旋转" />
+
+        <Button
+            android:id="@+id/btn_proper2"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="平移" />
+
+        <Button
+            android:id="@+id/btn_proper3"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="透明" />
+
+        <Button
+            android:id="@+id/btn_proper6"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="显现" />
+
+        <Button
+            android:id="@+id/btn_proper4"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="组合1" />
+
+        <Button
+            android:id="@+id/btn_proper5"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="组合2" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_proper"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/mountain"
+        android:layout_gravity="center"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.secondkotlin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo13"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SecondKotlin">
+        <activity android:name=".event.EventActivity"></activity>
+        <activity android:name=".event.MyButton" />
+        <activity android:name=".animate.TweenAnimActivity" />
+        <activity android:name=".animate.PropertyAnimActivity" />
+        <activity android:name=".HandlerActivity" />
+        <activity android:name=".viewpager.ViewPagerActivity" />
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".webview.WebViewActivity" />
+        <activity android:name=".viewmodel.SeekBarActivity" />
+        <activity android:name=".tiange.CheckBoxActivity" />
+        <activity android:name=".randomdice.DiceActivity" />
+        <activity android:name=".recyclerview.PuRecyclerViewActivity" />
+        <activity android:name=".recyclerview.RecyclerViewActivity" />
+        <activity android:name=".recyclerview.GridRecyclerViewActivity" />
+        <activity android:name=".recyclerview.HorRecyclerActivity" />
+        <activity android:name=".recyclerview.LinearRecyclerViewActivity" />
+        <activity android:name=".tiange.TianMainActivity" />
+        <activity android:name=".calculator.MainActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
