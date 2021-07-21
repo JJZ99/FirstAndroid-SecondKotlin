@@ -10,6 +10,7 @@ import com.example.secondkotlin.databinding.ActivityMainBinding
 import com.example.secondkotlin.event.EventActivity
 import com.example.secondkotlin.randomdice.DiceActivity
 import com.example.secondkotlin.recyclerview.RecyclerViewActivity
+import com.example.secondkotlin.test.Test
 import com.example.secondkotlin.tiange.TianMainActivity
 import com.example.secondkotlin.viewmodel.SeekBarActivity
 import com.example.secondkotlin.viewpager.ViewPagerActivity
@@ -79,6 +80,10 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnMy.setOnClickListener {
             var intent = Intent(this, EventActivity().javaClass)
+            startActivity(intent)
+        }
+        binding.testTextview.setOnClickListener {
+            var intent = Intent(this, Test().javaClass)
             startActivity(intent)
         }
 

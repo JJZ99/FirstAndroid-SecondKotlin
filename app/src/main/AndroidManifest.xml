@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SecondKotlin">
-        <activity android:name=".event.EventActivity"></activity>
+        <activity android:name=".test.Test"></activity>
+        <activity android:name=".event.EventActivity" />
         <activity android:name=".event.MyButton" />
         <activity android:name=".animate.TweenAnimActivity" />
         <activity android:name=".animate.PropertyAnimActivity" />

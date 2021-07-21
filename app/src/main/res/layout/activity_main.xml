@@ -91,5 +91,12 @@
         android:text="重写触摸事件"
         android:textSize="20sp"
         android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/test_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是胡乱测试"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
 
 </LinearLayout>
