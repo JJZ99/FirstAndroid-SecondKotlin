@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/test_id"
-        android:layout_width="match_parent"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:maxLines="1"
         android:text=" 纠结啊啥的！！"

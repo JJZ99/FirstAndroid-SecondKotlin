@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FirstAndroid-SecondKotlin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tools/mbox" vcs="Git" />
   </component>
 </project>

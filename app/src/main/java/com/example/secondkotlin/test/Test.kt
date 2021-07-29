@@ -37,9 +37,28 @@ class Test : AppCompatActivity() {
                 10->binder.testId.text = "适当的大叔大"
             }
             binder.showWidth.apply {
-                setText(binder.testId.paint.measureText(binder.testId.text.toString()).toString()+ "\n"+binder.testId.width.toString()
+                setText(
+                    binder.testId.measuredWidth.toString() + "\n" + binder.testId.paint.measureText(
+                        binder.testId.text.toString()
+                    )
+                        .toString() + "\n" + binder.testId.width.toString() + "\n" + binder.testId.layoutParams.width.toString()
                 )
             }
+
+//            var str = null;
+//            var str1 = ""
+//            var str2 = ""
+//            if (str.contains(".")){
+//                 str1 = str.substring(0,str.indexOf("."))
+//                 str2 = str.substring(str.indexOf("."))
+//
+//            }
+//            binder.showWidth.apply {
+//                setText(str+ "\n"+str1+"\n"+str2+"\n"+(str!!.toDouble() * 100))
+//            }
+
+
+
         }
 
 
@@ -47,10 +66,5 @@ class Test : AppCompatActivity() {
 
 
 
-    }
-}
-class Dice(val numberSides: Int) {
-    fun roll(): Int {
-        return (1..numberSides).random()
     }
 }
